@@ -52,7 +52,7 @@ router.post("/", async (req, res) => {
 
 
   } catch (e) {
-    console.error(e);
+    console.error("catched", e);
     return res.status(500).send(e);
   }
 });
